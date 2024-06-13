@@ -1,0 +1,17 @@
+1. Crear ramas desde la GUI de github.
+	git branch → visualizar las ramas en repo local.
+	* git fetch → actualiza el estado del repositorio.
+	* git pull → actualiza todo el repositorio.
+	git checkout → cambiar de rama en mi repositorio
+	
+	*git branch -d {nombre_rama} → eliminar rama de repo local.
+
+
+2. Crear ramas desde la CLI.
+	1. git init
+	2. git remote add origin {URL}
+		* git remote → verificar si un repo remoto añadido
+	3. git checkout -b {nombre} → crea una rama nueva en local
+	4. git pull origin {rama_source} → agregar la source en la rama
+	5. git branch
+	6. git push -u origin {rama_nueva}
